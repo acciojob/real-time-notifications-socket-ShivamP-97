@@ -1,0 +1,67 @@
+/*  your css code here. If applicable */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa;
+  color: #343a40;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+}
+
+#status {
+  text-align: center;
+  font-weight: bold;
+}
+
+input,
+button {
+  font-size: 16px;
+}
+
+input {
+  display: block;
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ced4da;
+  border-radius: 4px;
+  margin-bottom: 20px;
+}
+
+#send-button,
+#disconnect-button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  cursor: pointer;
+  border-radius: 4px;
+  margin-right: 8px;
+}
+
+#disconnect-button {
+  background-color: #dc3545;
+}
+
+#send-button:hover,
+#disconnect-button:hover {
+  opacity: 0.8;
+}
+
+#notifications {
+  margin-top: 20px;
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid #dee2e6;
+  border-radius: 4px;
+}
+
+.notification {
+  padding: 8px 16px;
+  background-color: #e9ecef;
+  border-radius: 4px;
+  margin-bottom: 8px;
+}
